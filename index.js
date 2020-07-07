@@ -1,6 +1,6 @@
-function divide(){
-let a = 2000
-let b = 100
-let c = a/b
-
+let divide = (parameter1, parameter2) => {
+  console.log(`Adding ${parameter1}`);
+  console.log(`Adding ${parameter2}`);
+  return parameter1 + parameter2;
 }
+divide(1,2)
